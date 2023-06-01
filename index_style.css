@@ -1,0 +1,148 @@
+header{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background: #bcc3d0;
+    opacity: 0.9;
+    border-radius: 5px;
+    font-family: Arial, sans-serif;
+}
+
+.logo{
+    margin: 5px 40px 0 5px;
+}
+
+.title a{
+    margin-right: 60px;
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    color: #303030;
+    font-size: larger;
+    text-decoration: none;
+}
+
+.menu{
+    flex-grow: 1;
+}
+.menu ul{
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 2px 0 0;
+    padding: 0;
+    font-size: 16px;
+    line-height: 18px;
+    list-style: none;
+}
+.menu li{
+    margin-right: 20px;
+}
+.menu li:last-child {
+    margin-right: 0;
+}
+
+.menu li .second {
+    border-radius: 5px;
+    display: none;
+    position: absolute;
+    background-color:#a4a4a4;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.menu li:hover .second{display: block;}
+
+.menu a{ 
+    color: #000;
+    text-decoration: none;
+    padding: 8px 10px; 
+    display: block;
+    text-transform: uppercase;
+    letter-spacing: .20em;
+}
+.menu a:hover{
+    text-transform: uppercase;
+    letter-spacing: .20em;
+    color: #fff;
+    padding: 8px 10px;
+    background-color: #888888;
+    border-radius: 8px;
+}
+
+.tel{
+    font-size: 20px;
+    line-height: 24px;
+    margin-right: 20px;
+    color: #000;
+    text-decoration: none;
+}
+
+
+body{
+    background: #ffffff url(Images/factory.jpg);
+    background-size: cover;
+    font-family: Arial, sans-serif;
+}
+
+.description{
+    color: #efefef;
+    text-decoration: none;
+    letter-spacing: .10em;
+    margin: 140px 20% 0 30%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px;
+    font-size: 30px;
+    background-color: #8794aa;
+    opacity: 0.9;
+    border-left: 8px solid #303030;
+    border-right: 8px solid #303030;
+}
+
+footer{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    width: 100%;
+    background-color: #bcc3d0;
+    opacity: 0.9;
+    font-family: Arial, sans-serif;
+}
+
+.footer-menu{
+    flex-grow: 1;
+    flex-flow: row nowrap;
+    padding: 0;
+    display: flex;
+    color: #303030;
+    margin-left: 40px;
+}
+.footer-menu h1{
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.footer-menu ul{
+    padding: 0;
+    font-size: 18px;
+    line-height: 18px;
+    list-style: none;
+    margin-right: 200px;
+}
+.footer-menu ul:last-child {
+    margin-right: 0;
+}
+
+.footer-menu li{
+    margin-right: 20px;
+}
+.footer-menu li:last-child {
+    margin-right: 0;
+}
