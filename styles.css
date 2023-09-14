@@ -55,14 +55,16 @@ header{
     display: flex;
     flex-direction: column;
     z-index: -1;
+    visibility: hidden;
     opacity: 0;
     transition: 0.5s;
 }
 
 .menu li:hover .second{
     z-index: 1;
+    visibility: visible;
     opacity: 1;
-    transition-property: opacity; 
+    transition-property: opacity, visibility; 
     transition-duration: 0.2s;
 }
 
