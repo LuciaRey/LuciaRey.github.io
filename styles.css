@@ -376,16 +376,16 @@ b{
 }
 
 .products h2{
-    margin-left: 49%;
+    margin-left: 45%;
 }
 .products table{
     width: 60%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .products img{
     filter: blur(40%);
-    width: 600px;
-    height: 400px;
+    width: 450px;
+    height: 330px;
     border-radius: 10px;
 }
 .products img:hover{
