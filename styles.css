@@ -345,6 +345,9 @@ p{
     margin-left: 25%;
     margin-bottom: 150px;
 }
+.products-text h3{
+    width: 600px;
+}
 
 b{
     color: #303030;
