@@ -424,6 +424,8 @@ b{
     object-fit:scale-down;
 }
 .tizery-vr a {
+    text-decoration: none;
+    color:#303030;
 	display: flex;
 	margin: 10px 0;
 }
