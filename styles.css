@@ -430,7 +430,7 @@ b{
 	margin: 10px 0;
 }
 .tizery-vr a:hover{
-    color: #2f1f44;
+    text-decoration: underline;
 }
  
 .tizery-vr p {
