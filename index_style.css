@@ -235,7 +235,7 @@ footer{
         cursor: pointer;
     }
     body{
-        background: #ffffff url(Images/vertical-factory.jpg) no-repeat;
+        background: #ffffff url(Images/vertical-factory.jpg) repeat;
         background-size: cover;
     }
     .description{
