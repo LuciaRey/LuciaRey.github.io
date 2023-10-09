@@ -281,7 +281,7 @@
       return false;
     });
 
-    $(document).on("click", function (e) {
+    $(".menu-close").on("click", function (e) {
       if (!$(e.target).closest(".menu").length) {
         $("body").removeClass("body_pointer");
         $menu_popup.slideUp(300);

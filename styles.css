@@ -31,10 +31,12 @@ header{
 }
 
 .menu .menu-triger{
+    pointer-events: none;
     display: none;
 }
 
 .menu .menu-close{
+    pointer-events: none;
     display: none;
 }
 
@@ -460,6 +462,7 @@ b{
         position: relative;
     }
     .menu .menu-triger {
+        pointer-events: all;
         display: block;
         width: 20px;
         height: 20px;	
@@ -470,6 +473,7 @@ b{
         top: 20px;
     }	
     .menu .menu-close {
+        pointer-events: all;
         display: block;
         width: 20px;
         height: 20px;	
