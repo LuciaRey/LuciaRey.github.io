@@ -173,7 +173,7 @@ footer{
     margin-right: 0;
 }
 
-@media (max-device-width: 1300px){
+@media (max-width: 1300px){
     .tel{
         display: none;
     }
