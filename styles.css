@@ -30,6 +30,15 @@ header{
     flex-grow: 1;
 }
 
+.menu .menu-triger{
+    display: none;
+}
+
+.menu .menu-close{
+    display: none;
+}
+
+
 .menu ul{
     display: flex;
     flex-flow: row nowrap;
@@ -430,4 +439,127 @@ b{
 
 .mech-production p:last-child{
     margin-bottom: 150px;
+}
+
+@media (max-width: 1300px){
+    .tel{
+        display: none;
+    }
+    header {
+        position: relative;
+    }
+    .menu .menu-triger {
+        display: block;
+        width: 20px;
+        height: 20px;	
+        background: url(https://img.icons8.com/sf-black/64/menu.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 15px;
+        top: 20px;
+    }	
+    .menu .menu-close {
+        display: block;
+        width: 20px;
+        height: 20px;	
+        background: url(https://img.icons8.com/external-tanah-basah-detailed-outline-tanah-basah/48/external-multiply-user-interface-tanah-basah-detailed-outline-tanah-basah.png) no-repeat;
+        background-size: contain;
+        position: absolute;
+        right: 20px;
+        top: 20px;
+        z-index: 100;
+    }
+    .menu-popup {
+        border-radius: 8px;
+        display: none;	
+        background:#646464;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        top: 0;
+        box-sizing: border-box;
+        padding: 30px;
+        z-index: 9999;	
+        box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .menu-popup ul {
+        flex-direction: column;
+        margin-right: 5%;
+        padding: 0;
+    }
+    .menu-popup li {
+        list-style: none;
+        margin: 10px 0;
+        padding: 0;
+    }
+    .menu-popup li a {
+        font-size: 18px;
+        font-family: "Arial";
+        color: rgb(255, 255, 255);
+        line-height: 1.4;	
+        text-decoration: none;
+    }
+    .body_pointer * {
+        cursor: pointer;
+    }
+    .sidenav{
+        display: none;
+    }
+    .go-back{
+        display: none;
+    }
+    .tizery-vr{
+        display: none;
+    }
+    .footer-menu h1{
+        font-size: 18px;
+    }
+    .footer-menu ul{
+        font-size: 16px;
+    }
+    h3{
+        margin-left: 5%;
+    }
+    h4{
+        margin-left: 5%;
+    }
+    h5{
+        margin-left: 5%;
+    }
+    p{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .body-image{
+        margin-left: 5%;
+        width: 90%;
+    }
+    .production-table table{
+        display: none;
+    }
+    .products table{
+        width: 90%;
+    }
+    .products img{
+        width: 240px;
+        height: 100%;
+    }
+    .products h2{
+        margin-left: 42%;
+    }
+    .map iframe{
+        width: 100%;
+    }
+    .slider{
+        margin: 0 30% 0;
+        position: relative;
+    }
+    .products-text{
+        margin-top: 10px;
+        margin-left: 5%;
+    }
+    .product-img{
+        position: relative;
+        margin-left: 30%;
+    }
 }

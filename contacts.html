@@ -1,71 +1,83 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./styles.css" type="text/css">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./styles.css" type="text/css" />
     <title>Контакты ЭволвМаш</title>
-    <link rel="shortcut icon" href="./Images/logo.png" type="image/png">
-</head>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/png" />
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+  </head>
 
-<header>
+  <header>
     <div class="logo">
-        <a href="./index.html">
-            <img src="./Images/logo.png" width="60" height="60px" />
-         </a>
+      <a href="./index.html">
+        <img src="./Images/logo.png" width="60" height="60px" />
+      </a>
     </div>
 
-    <div class = "title"><a href="./index.html">ЭволвМаш</a></div>
-
+    <div class="title"><a href="./index.html">ЭволвМаш</a></div>
     <div class="menu">
+      <a class="menu-triger" href="#"></a>
+      <div class="menu-popup">
+        <a class="menu-close" href="#"></a>
         <ul>
-            <li><a href="./about.html">О компании</a>
-                <ul class="second">
-                    <li><a href="./about.html#history">История</a></li>
-                    <li><a href="./about.html#administration">Руководство</a></li>
-                </ul>
-            </li>
-            <li><a href="./production.html">Производство</a>
-                <ul class="second">
-                    <li><a href="./production.html#lit">Литейное</a></li>
-                    <li><a href="./production.html#mech">Механическое</a></li>
-                </ul>
-            </li>
-            <li><a href="./products.html">Продукция</a>
-                <ul class="second">
-                    <li><a href="./product1.html">затвор поворотно-дисковый</a></li>
-                    <li><a href="./product2.html">затвор дисковый межфланцевый</a></li>
-                    <li><a href="./product2.html">задвижка клиновая энэкос</a></li>
-                </ul>
-            </li>
-            <li><a href="./contacts.html">Контакты</a>
-                <ul class="second">
-                    <li><a href="./contacts.html#info">Контактная информация</a></li>
-                    <li><a href="./contacts.html#address">Юридический адрес</a></li>
-                </ul>
-            </li>
-            <li><a href="./map.html">Карта сайта</a></li>
+          <li>
+            <a href="./about.html">О компании</a>
+            <ul class="second">
+              <li><a href="./about.html#history">История</a></li>
+              <li><a href="./about.html#administration">Руководство</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./production.html">Производство</a>
+            <ul class="second">
+              <li><a href="./production.html#lit">Литейное</a></li>
+              <li><a href="./production.html#mech">Механическое</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./products.html">Продукция</a>
+            <ul class="second">
+              <li><a href="./product1.html">затвор поворотно-дисковый</a></li>
+              <li>
+                <a href="./product2.html">затвор дисковый межфланцевый</a>
+              </li>
+              <li><a href="./product2.html">задвижка клиновая энэкос</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./contacts.html">Контакты</a>
+            <ul class="second">
+              <li><a href="./contacts.html#info">Контактная информация</a></li>
+              <li><a href="./contacts.html#address">Юридический адрес</a></li>
+            </ul>
+          </li>
+          <li><a href="./map.html">Карта сайта</a></li>
         </ul>
+      </div>
     </div>
 
     <div class="tel">+7(937)443-26-74</div>
-</header>
+  </header>
 
-<body>
-    <img class="image" src="./Images/factorycut.jpg">
+  <body>
+    <img class="image" src="./Images/factorycut.jpg" />
     <h2>Контакты</h2>
 
     <div class="sidenav">
-        <a href="#info">Контактная информация</a>
-        <a href="#address">Юридический адрес</a>
+      <a href="#info">Контактная информация</a>
+      <a href="#address">Юридический адрес</a>
     </div>
 
     <div class="go-back">
-        <a href="javascript:scroll(0,0)">Вернуться наверх</a>
+      <a href="javascript:scroll(0,0)">Вернуться наверх</a>
     </div>
 
     <div class="tizery-vr">
-        <a><p>Shit happens - Pampers</p><img src="../Images/ad1.jpg" alt="Картинка 1" /></a>
+      <a
+        ><p>Shit happens - Pampers</p>
+        <img src="../Images/ad1.jpg" alt="Картинка 1"
+      /></a>
     </div>
 
     <h3 id="info">Контактная информация:</h3>
@@ -76,23 +88,52 @@
     <p>400081, Россия, г.Волгоград, ул.Ангарская, д.17а</p>
 
     <div class="map">
-        <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2476284bca567eb65afc9217b007f67e5a9d2fab4965f150e30275b3250245fa&amp;width=997&amp;height=720&amp;lang=ru_RU&amp;scroll=true"></script>
+      <script
+        type="text/javascript"
+        charset="utf-8"
+        async
+        src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A2476284bca567eb65afc9217b007f67e5a9d2fab4965f150e30275b3250245fa&amp;width=997&amp;height=720&amp;lang=ru_RU&amp;scroll=true"
+      ></script>
     </div>
-</body>
+  </body>
 
-<footer>
-    <div class=footer-menu>
-        <ul>
-            <li><h1>Контактная информация:</h1></li>
-            <li>+7(937)443-26-74</li>
-            <li>evolvmash@outlook.com</li>
-        </ul>
+  <footer>
+    <div class="footer-menu">
+      <ul>
+        <li><h1>Контактная информация:</h1></li>
+        <li>+7(937)443-26-74</li>
+        <li>evolvmash@outlook.com</li>
+      </ul>
 
-        <ul>
-            <li><h1>Юридический адрес</h1></li>
-            <li>400081, Россия, г.Волгоград, ул.Ангарская, д.17а</li>
-        </ul>
+      <ul>
+        <li><h1>Юридический адрес</h1></li>
+        <li>400081, Россия, г.Волгоград, ул.Ангарская, д.17а</li>
+      </ul>
     </div>
-</footer>
-
+  </footer>
 </html>
+
+<script>
+    $(function () {
+      var $menu_popup = $(".menu-popup");
+  
+      $(".menu-triger, .menu-close").click(function () {
+        $menu_popup.slideToggle(300, function () {
+          if ($menu_popup.is(":hidden")) {
+            $("body").removeClass("body_pointer");
+          } else {
+            $("body").addClass("body_pointer");
+          }
+        });
+        return false;
+      });
+  
+      $(document).on("click", function (e) {
+        if (!$(e.target).closest(".menu").length) {
+          $("body").removeClass("body_pointer");
+          $menu_popup.slideUp(300);
+        }
+      });
+    });
+  </script>
+  

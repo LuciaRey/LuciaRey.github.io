@@ -1,74 +1,109 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="ru">
-
-<head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./index_style.css" type="text/css">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="./index_style.css" type="text/css" />
     <title>ОАО ЭволвМаш</title>
-    <link rel="shortcut icon" href="./Images/logo.png" type="image/png">
-</head>
+    <link rel="shortcut icon" href="./Images/logo.png" type="image/png" />
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="./script.js" defer></script>
+  </head>
 
-<header>
+  <header>
     <div class="logo">
-        <a href="./index.html">
-            <img src="./Images/logo.png" width="60" height="60px" />
-         </a>
+      <a href="./index.html">
+        <img src="./Images/logo.png" width="60" height="60px" />
+      </a>
     </div>
 
-    <div class = "title"><a href="./index.html">ЭволвМаш</a></div>
-
+    <div class="title"><a href="./index.html">ЭволвМаш</a></div>
     <div class="menu">
+      <a class="menu-triger" href="#"></a>
+      <div class="menu-popup">
+        <a class="menu-close" href="#"></a>
         <ul>
-            <li><a href="./about.html">О компании</a>
-                <ul class="second">
-                    <li><a href="./about.html#history">История</a></li>
-                    <li><a href="./about.html#administration">Руководство</a></li>
-                </ul>
-            </li>
-            <li><a href="./production.html">Производство</a>
-                <ul class="second">
-                    <li><a href="./production.html#lit">Литейное</a></li>
-                    <li><a href="./production.html#mech">Механическое</a></li>
-                </ul>
-            </li>
-            <li><a href="./products.html">Продукция</a>
-                <ul class="second">
-                    <li><a href="./product1.html">затвор поворотно-дисковый</a></li>
-                    <li><a href="./product2.html">затвор дисковый межфланцевый</a></li>
-                    <li><a href="./product2.html">задвижка клиновая энэкос</a></li>
-                </ul>
-            </li>
-            <li><a href="./contacts.html">Контакты</a>
-                <ul class="second">
-                    <li><a href="./contacts.html#info">Контактная информация</a></li>
-                    <li><a href="./contacts.html#address">Юридический адрес</a></li>
-                </ul>
-            </li>
-            <li><a href="./map.html">Карта сайта</a></li>
+          <li>
+            <a href="./about.html">О компании</a>
+            <ul class="second">
+              <li><a href="./about.html#history">История</a></li>
+              <li><a href="./about.html#administration">Руководство</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./production.html">Производство</a>
+            <ul class="second">
+              <li><a href="./production.html#lit">Литейное</a></li>
+              <li><a href="./production.html#mech">Механическое</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./products.html">Продукция</a>
+            <ul class="second">
+              <li><a href="./product1.html">затвор поворотно-дисковый</a></li>
+              <li>
+                <a href="./product2.html">затвор дисковый межфланцевый</a>
+              </li>
+              <li><a href="./product2.html">задвижка клиновая энэкос</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="./contacts.html">Контакты</a>
+            <ul class="second">
+              <li><a href="./contacts.html#info">Контактная информация</a></li>
+              <li><a href="./contacts.html#address">Юридический адрес</a></li>
+            </ul>
+          </li>
+          <li><a href="./map.html">Карта сайта</a></li>
         </ul>
+      </div>
     </div>
-
 
     <div class="tel">+7(937)443-26-74</div>
-</header>
- 
-<body>
-    <div class="description">ОАО ЭволвМаш - 15 лет производим в России запорную арматуру по европейским стандартам</div>
-</body>
+  </header>
 
-<footer>
-    <div class=footer-menu>
-        <ul>
-            <li><h1>Контактная информация:</h1></li>
-            <li>+7(937)443-26-74</li>
-            <li>evolvmash@outlook.com</li>
-        </ul>
-
-        <ul>
-            <li><h1>Юридический адрес</h1></li>
-            <li>400081, Россия, г.Волгоград, ул.Ангарская, д.17а</li>
-        </ul>
+  <body>
+    <div class="description">
+      ОАО ЭволвМаш - 15 лет производим в России запорную арматуру по европейским
+      стандартам
     </div>
-</footer>
+  </body>
 
+  <footer>
+    <div class="footer-menu">
+      <ul>
+        <li><h1>Контактная информация:</h1></li>
+        <li>+7(937)443-26-74</li>
+        <li>evolvmash@outlook.com</li>
+      </ul>
+
+      <ul>
+        <li><h1>Юридический адрес</h1></li>
+        <li>400081, Россия, г.Волгоград, ул.Ангарская, д.17а</li>
+      </ul>
+    </div>
+  </footer>
 </html>
+
+<script>
+  $(function () {
+    var $menu_popup = $(".menu-popup");
+
+    $(".menu-triger, .menu-close").click(function () {
+      $menu_popup.slideToggle(300, function () {
+        if ($menu_popup.is(":hidden")) {
+          $("body").removeClass("body_pointer");
+        } else {
+          $("body").addClass("body_pointer");
+        }
+      });
+      return false;
+    });
+
+    $(document).on("click", function (e) {
+      if (!$(e.target).closest(".menu").length) {
+        $("body").removeClass("body_pointer");
+        $menu_popup.slideUp(300);
+      }
+    });
+  });
+</script>
