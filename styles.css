@@ -1,5 +1,5 @@
 html{
-    zoom: 90%;
+    zoom: 80%;
 }
 
 header{
@@ -354,6 +354,9 @@ p{
     margin-left: 25%;
     margin-bottom: 150px;
 }
+.products-text h3{
+    width: 600px;
+}
 
 b{
     color: #303030;
@@ -383,18 +386,21 @@ b{
     font-size: 24px;
     color: #303030;
 }
+.site-map{
+    margin-bottom: 10%;
+}
 
 .products h2{
-    margin-left: 49%;
+    margin-left: 45%;
 }
 .products table{
     width: 60%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .products img{
     filter: blur(40%);
-    width: 600px;
-    height: 400px;
+    width: 450px;
+    height: 330px;
     border-radius: 10px;
 }
 .products img:hover{
@@ -427,8 +433,13 @@ b{
     object-fit:scale-down;
 }
 .tizery-vr a {
+    text-decoration: none;
+    color:#303030;
 	display: flex;
 	margin: 10px 0;
+}
+.tizery-vr a:hover{
+    text-decoration: underline;
 }
  
 .tizery-vr p {
