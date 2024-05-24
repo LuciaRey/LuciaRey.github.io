@@ -1,0 +1,83 @@
+{
+  "favorites": [
+    {
+      "stack": "item:duneons:bamboograss"
+    },
+    {
+      "stack": "item:duneons:busherstone"
+    },
+    {
+      "stack": "item:duneons:bamboocobblestone"
+    },
+    {
+      "stack": "item:duneons:bambooflowerlog"
+    },
+    {
+      "stack": "item:duneons:bamboo_wood_fence"
+    },
+    {
+      "stack": "item:duneons:bamboo_wood_button"
+    },
+    {
+      "stack": "item:duneons:troomgoldblockstairs"
+    },
+    {
+      "stack": "item:minecraft:emerald"
+    },
+    {
+      "stack": "item:duneons:randomatoolbox"
+    },
+    {
+      "stack": "item:duneons:randomartifactbox"
+    },
+    {
+      "stack": "item:duneons:randomarmorbox"
+    },
+    {
+      "stack": "item:duneons:randonbowbox"
+    },
+    {
+      "stack": "item:duneons:randombox"
+    },
+    {
+      "stack": "item:duneons:double_bladed_sword{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:tempest_knife{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:claymorewinter{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:frostflorett{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:goldmace{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:glaivespooky{Damage:0}"
+    },
+    {
+      "stack": "item:duneons:enderhammer{Damage:0}"
+    }
+  ],
+  "lookup_history": [
+    "item:duneons:corruptedbeacona{Damage:0}",
+    "item:create:zinc_block",
+    {
+      "type": "fluid",
+      "id": "createtipsy:whiskey",
+      "amount": 437
+    },
+    "item:createtipsy:suspicious_whiskey",
+    "item:minecraft:bricks"
+  ],
+  "craft_history": [],
+  "recipe_defaults": {
+    "added": [],
+    "tags": {},
+    "resolutions": {},
+    "disabled": []
+  },
+  "hidden_stacks": []
+}
